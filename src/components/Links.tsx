@@ -1,5 +1,6 @@
 import React from "react";
 import { List } from "antd";
+import 'antd/es/list/style/index.less'
 
 const Footer: React.FC<Props> = ({ data }) => {
   return (
