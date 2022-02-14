@@ -1,0 +1,38 @@
+{
+  "name": "dumi-theme-egg",
+  "version": "1.1.20",
+  "description": "The official egg theme of dumi",
+  "scripts": {
+    "build": "father-build",
+    "prettier": "npx prettier --write ."
+  },
+  "files": [
+    "es",
+    "src"
+  ],
+  "sideEffects": [
+    "./**/*.less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eggjs/egg"
+  },
+  "homepage": "http://github.com/eggjs/egg",
+  "bugs": "http://github.com/eggjs/egg/issues",
+  "authors": [],
+  "dependencies": {
+    "dumi-theme-default": "^1.1.20"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "antd": "^4.18.7",
+    "father-build": "^1.21.1",
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "@umijs/preset-dumi": "1.x",
+    "antd": "^4.x",
+    "react": "^17.x"
+  },
+  "license": "MIT"
+}
