@@ -1,4 +1,4 @@
-export default interface IThemeMobileConfig {
+export default interface IThemeEggConfig {
   links: Array<{
     title: string;
     list: Array<{
