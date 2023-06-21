@@ -1,6 +1,6 @@
 {
   "name": "dumi-theme-egg",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "The official egg theme of dumi",
   "scripts": {
     "build": "father-build",
