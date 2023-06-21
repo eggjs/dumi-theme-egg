@@ -27,7 +27,10 @@ const Intro: React.FC<Props> = ({ data }) => {
 
           {guide && (
             <div className="__dumi-egg-intro-buttons">
-              <a className="__dumi-egg-intro-button __dumi-egg-intro-button-primary" href={guide.link}>
+              <a
+                className="__dumi-egg-intro-button __dumi-egg-intro-button-primary"
+                href={guide.link}
+              >
                 {guide.title}
               </a>
               <a

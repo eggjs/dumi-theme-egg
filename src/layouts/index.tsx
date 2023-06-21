@@ -19,7 +19,7 @@ const EggLayout: React.FC<React.PropsWithChildren<Props>> = ({
   const {
     meta,
     config: { theme },
-  } = useContext(context);
+  } = useContext(context) as any;
   const { title, egg } = meta;
 
   const renderHome = () => {
